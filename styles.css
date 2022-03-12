@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #647770;
+}
+
+a{
+  text-decoration: none;
+}
+
+#main{
+  color: #ffffff;
+  background-image: url('./imgs/rock.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#main .title{
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+#main .button{
+  font-size: 30px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  color: #fcaa2f;
+  background-color: #7c7161;
+}
+
+#main p{
+  font-size: 40px;
+}
+
+#images{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  color: #ffffff;
+  background-color: #fcaa2f;
+  font-weight: bold;
+  padding-left: 20px;
+}
